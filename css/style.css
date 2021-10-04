@@ -15,7 +15,7 @@ nav {
   background-color: rgba(0, 0, 0, 1);  
   flex-direction: row;
   justify-content: space-evenly;
-  font-size: 30px;
+  font-size: clamp(10px, 5vw, 30px);
 }
 a:link {
   color: white;
@@ -26,14 +26,15 @@ a:link {
     margin-left: auto;
     margin-right: auto;    
     margin-top: 40px;
-    width: clamp(200px, 50vw, 800px);
+    width: 500px;    
+    max-width: 100%;
     background-color: rgba(65, 65, 65, 0.7);
     padding: 0px 10px 0px 20px;
     font-family: 'Stick No Bills', sans-serif;
     border-style: double;
     border-color: white;
     border-width: 4px;
-    font-size: 90px;
+    font-size: clamp(70px, 10vw, 90px);
     border-radius: 10%;
     text-align: center;    
 }
