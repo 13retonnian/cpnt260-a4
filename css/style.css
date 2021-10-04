@@ -90,3 +90,11 @@ p{
   border-color: white;
   border-width: 4px;
 }
+footer p{ 
+  padding: 0px;
+  border: none;
+  font-size: 12px;
+}
+p a:link{
+  color: blue;
+}
