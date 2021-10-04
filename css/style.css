@@ -2,7 +2,7 @@
 *{
     font-family: 'Stick No Bills', sans-serif;
 }
-html{
+html {
   background-image: url('../img/moon-landing-squooshed.jpg');    
   background-repeat: no-repeat;		
   background-position: top;	
@@ -22,10 +22,8 @@ a:link {
 }
 #title {
   color: white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;    
-  margin-top: 40px;
+  display: block;  
+  margin: 0px auto 0px auto;
   width: 500px;    
   max-width: 100%;
   background-color: rgba(65, 65, 65, 0.7);
@@ -38,15 +36,14 @@ a:link {
   border-radius: 10%;
   text-align: center;    
 }
-#hero-section{
+#hero-section {
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  margin-right: auto;    
-  margin-top: 40px;
+  margin-right: auto;  
   width: 900px;    
   max-width: 100%;
   background-color: rgba(65, 65, 65, 0.7);
@@ -58,4 +55,25 @@ a:link {
   font-size: clamp(10px, 3vw, 20px);
   border-radius: 10%;
   text-align: center;    
+}
+select {
+  width: 400px;
+  max-width: 100%;
+  background-color: rgba(200, 200, 200, 0.75);
+}
+input {
+  background-color: rgba(200, 200, 200, 0.75);
+}
+textarea {
+  background-color: rgba(200, 200, 200, 0.75);
+}
+label {
+  margin: 10px;
+}
+#build-button {
+  width: 400px;
+  max-width: 100%;
+  font-size: 30px;
+  height: 50px;
+  margin-bottom: 30px;
 }

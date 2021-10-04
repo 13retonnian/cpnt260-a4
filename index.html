@@ -22,23 +22,26 @@
       <h2>Build a civilization on the moon!</h2>
       <form id="moon-civ-form">
         <section>
-          <label for="moon-civilization-name">Name your civilization:</label>
+          <label for="moon-civilization-name">Name the civilization:</label>
           <input type="text" name="moon-civilization-name" value="" placeholder="ex: Moon Metropolis, Lunar Land">
         </section>
         <section>
-          <label for="moon-civ-location">Where on the moon is your moon civilization? (Hold ctrl to select multiple)</label><                           
+          <label for="moon-civ-location">Where on the moon is the moon civilization? (Hold ctrl to select multiple)</label>
+          <div>
           <select id="moon-civ-locations" name="moon-civ-location" value="select" multiple>
           <option value="space">On the side facing space ("dark side")</option>
-          <option value="light-side">On the side facing earth("light side")</option>
+          <option value="light-side">On the side facing earth ("light side")</option>
           <option value="inside">Inside the moon</option>
           <option value="crater">In a crater</option>
           <option value="moon-mountain">On a moon mountain</option>
-          <option value="all-over">All over the place</option>
+          <option value="all-over">All over the place</option>          
           </select>
+          </div>
         </section>
         <section>
           <label for="civ-appearance">What does the civilization look like? (Hold ctrl to select multiple)</label>
-          <select name="civ-appearance" id="civ-appearance">
+          <div>
+          <select name="civ-appearance" id="civ-appearance" multiple>
             <option value="bubble">It's in a big bubble</option>
             <option value="futuristic">It's futuristic</option>
             <option value="post-apocalyptic">It's post-apocalyptic</option>
@@ -55,10 +58,13 @@
             <option value="big-buildings">It has huge buildings</option>
             <option value="small-buildings">It has small huts</option>
             <option value="small-buildings">It's Lovecraftian</option>
+            <option value="uncivilized">It's uncivilized</option>
+          </div>
           </select>
         </section>
         <section>
           <label for="civilization-type">Civilization Type (Hold ctrl to select multiple)</label>
+          <div>
           <select id="civilization-types" name="civilization-type" value="select" multiple>
             <option value="anarchist">Anarchist</option>
             <option value="minarchist">Minarchist</option>
@@ -76,7 +82,9 @@
             <option value="authoritarian">Authoritarian</option>
             <option value="libertarian">Libertarian</option>
             <option value="socialist">Socialist</option>
+            <option value="uncivilized">Uncivilized</option>
           </select> 
+          </div>
         </section>
         <section>
           <label for="number-of-citizens">How many people live in the moon civilization?</label>
@@ -89,7 +97,7 @@
           <textarea name="comments"> 
           </textarea>
         </section>
-        <input type="submit" value="Submit">				
+        <input type="submit" value="Build Civilization Now!" id="build-button">				
       </form>
     </section>
   </main>
