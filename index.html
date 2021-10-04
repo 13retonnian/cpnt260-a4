@@ -19,8 +19,44 @@
   </header>
   <main>
     <section id="hero-section">
-      <h2>Book a trip to the moon!</h2>
-
+      <h2>Build a civilization on the moon!</h2>
+      <form id="moon-civ-form">
+        <label for="moon-civilization-name">Name your civilization:</label>
+        <input type="text" name="moon-civilization-name" value="" placeholder="ex: Moon Metropolis, Lunar Land">
+        <label for="moon-civ-location">Where on the moon is your moon civilization?</label><                           
+        <select id="moon-civ-locations" name="moon-civ-location" value="select" multiple>
+          <option value="space">On the side facing space ("dark side")</option>
+          <option value="light-side">On the side facing earth("light side")</option>
+          <option value="inside">Inside the moon</option>
+          <option value="crater">In a crater</option>
+          <option value="moon-mountain">On a moon mountain</option>
+          <option value="all-over">All over the place</option>
+        </select>
+        <label for="civilization-type">Civilization Type</label>
+        <select id="civilization-types" name="civilization-type" value="select" multiple>
+          <option value="anarchist">Anarchist</option>
+          <option value="minarchist">Minarchist</option>
+          <option value="communist">Communist</option>
+          <option value="monarchist">Monarchist</option>
+          <option value="democracy">Democratic</option>
+          <option value="oligarchy">Oligarchic</option>
+          <option value="aristocracy">Aristocracy</option>
+          <option value="republic">Republic</option>
+          <option value="fascist">Fascist</option>
+          <option value="capitalist">Capitalist</option>
+          <option value="athiest">Athiest</option>
+          <option value="religious">Religious</option>
+          <option value="nationalist">Nationalist</option>
+        </select> 
+        <label for="number-of-citizens">How many people live in the moon civilization?</label>
+        <input type="number" name="number-of-ghosts" value="0">
+        <label for="description">
+        Describe mor about the civilization: (max 300 characters):
+        </label><br>						
+        <textarea name="comments"> 
+        </textarea><br>
+        <input type="submit" value="Submit">				
+      </form>
     </section>
   </main>
   <footer>
